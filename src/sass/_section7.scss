@@ -1,0 +1,92 @@
+.section7{
+    .sec7h5{
+        font-family: 'Cabin', sans-serif;
+        color: $textcolor;
+        font-weight: bold;
+            &::selection{
+            background-color: $textcolor;
+            color: $modeW;
+         }
+    }
+    .sec7h1{
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-weight: 200;
+        font-size: 20px;
+            &::selection{
+            background-color: $textcolor;
+            color: $modeW;
+         }
+    }
+    .projectImg{
+        position: relative;
+        overflow: hidden;
+        img{
+            transition: .5s;
+        }
+        .projectImgOverlay {
+            position: absolute;
+            @include positionCenter ;
+            height: 0px;
+            transition: .4s;
+            opacity: 0;
+            @include displayCenter;
+            
+           .projectOverlayText{
+            h6{
+                color:$modeW ;
+                font-family: 'Rowdies', cursive;
+                font-size: 25px;
+                position: relative;
+                &::selection{
+                    background-color: $textcolor;
+                    color: $modeW;
+                 }
+                &::before{
+                    position: absolute;
+                    content: "";
+                    top: 28px;
+                    left: 0;
+                    bottom: 0;
+                    right: 0;
+                    width: 0px;
+                    height: 2px;
+                    background-color:$modeW;
+                    transition: 250ms;
+                    
+                }
+                &:hover::before{
+                    width: 100%;
+                    background-color: $textcolor;
+                }
+                &:hover{
+                    color: $textcolor;
+                }
+                
+            }
+            p{
+                color: $modeW;
+                font-family: 'Cabin', sans-serif;
+                &::selection{
+                    background-color: $textcolor;
+                    color: $modeW;
+                 }
+                
+            }
+           }
+           
+        }
+        &:hover{
+            .projectImgOverlay{
+                height: 100%;
+                background-color: rgba($color: #000, $alpha: .6);
+                cursor: pointer;
+                opacity: 1;
+            }
+           img{
+            transform: scale(1.5);
+           }
+
+        }
+    }
+}
+

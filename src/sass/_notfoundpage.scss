@@ -1,0 +1,74 @@
+.notFoundPage{
+    width: 100%;
+        height: auto;
+        background-image: url("../image/bgourpricing.jpg");
+        @include bgImagePosition ;
+        .d-flex{
+            .notfoundtext{
+                margin: 20px;
+                h1{
+                    margin: 185px auto;
+                    color: $textcolor;
+                    font-family: 'Rowdies', cursive;
+                    font-size:100px;
+                    transition: 250ms;
+                  
+                }
+            
+               
+            }
+        }
+   .ourh4{
+    transform: translateY(-190px);
+    color: $modeW;
+    font-size: 45px;
+   }
+   .ourh6{
+    transform: translateY(-170px);
+    color: $modeW;
+    font-size: 22px;
+   }
+   .notFoundBox{
+    transform: translateY(-100px);
+    .link{
+        padding: 22px 50px;
+        border-radius: 50px;
+    background-color: $modeW;
+    color: $mode;
+    font-size: 16px;
+    font-weight: bold;
+   text-decoration: none;
+   font-family: 'Cabin', sans-serif;
+   transition: 250ms;
+   i{
+    transition: 250ms;
+   }
+   &:hover{
+    background-color: $textcolor;
+    color: $modeW;
+    i{
+        transform: translateX(10px);
+
+    }
+   }
+}
+   }
+}
+
+@media (max-width:530px){
+    .notFoundPage{
+       .ourh4{
+        font-size: 27px;
+       }
+       .ourh6{
+        font-size: 15px;
+       }
+       .notFoundBox{
+        transform: translateY(-115px);
+        .link{
+            padding: 18px 30px;
+            font-size: 12px;
+        }
+       }
+    }
+}

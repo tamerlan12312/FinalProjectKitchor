@@ -1,0 +1,99 @@
+.section3bgimg{
+.boxCardImg{
+    position: relative;
+    transition: 250ms;
+    overflow: hidden;
+    img{
+        transition: 250ms;
+        &::selection{
+            background-color: $textcolor;
+         }
+    }
+    .boxCardText{
+        position: absolute;
+      @include positionCenter;
+        h1{
+            color: $modeW;
+            font-size: 30px;
+            font-family: 'Rowdies', cursive;
+            transition: 250ms;
+            &::selection{
+                background-color: $textcolor;
+                color: $modeW;
+             }
+        
+        }
+        a{
+            position: absolute;
+            bottom: 35px;
+            left: 20px;
+            padding: 10px 15px;
+            font-family: 'Rowdies', cursive;
+            color: $modeW;
+            text-decoration: none;
+            font-size: 18px;
+            &::selection{
+                background-color: $textcolor;
+                color: $modeW;
+             }
+            i{
+                transition: 250ms;
+            }
+            &::before{
+                position: absolute;
+                content: "";
+                width: 0;
+                height: 2px;
+                bottom: 10px;
+                background-color: $textcolor;
+                transition: 250ms;
+            }
+            &:hover::before{
+                width: 65%;
+            }
+            &:hover{
+                color: $textcolor;
+                i{
+                    
+                    color: $textcolor;
+                    transform: translateX(10px);
+                }
+            }
+        }
+        .boxCardText2{
+            position: absolute;
+          width: 70%;
+          height: 100px;
+        color: $modeW;
+          transform: translateY(-30px);
+          bottom: 85px;
+          opacity: 0;
+          transition: 250ms;
+          h6{
+            font-size: 17px;
+            &::selection{
+                background-color: $textcolor;
+             }
+          }
+         
+        }
+    }
+    &:hover{
+        img{
+        transform: scale(1.2);
+       }
+        cursor: pointer;
+        .boxCardText2{
+            transform: translateY(20px);
+            opacity: 1;      
+   }
+      .boxCardText{
+        h1{
+            color: $textcolor2;
+        }
+      }
+        
+    }   
+}
+}
+

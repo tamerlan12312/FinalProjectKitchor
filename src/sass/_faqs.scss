@@ -1,0 +1,166 @@
+.faqsSection{
+    width: 100%;
+        height: auto;
+        background-image: url("../image/bgourpricing.jpg");
+        @include bgImagePosition ;
+        .d-flex{
+            .faqsTextFirst{
+                margin: 10px;
+                h1{
+                    margin: 185px auto;
+                    color: $modeW;
+                    font-size: 27px;
+                    a{
+                        text-decoration: none;
+                        position: relative;
+                text-decoration: none;
+                color: $modeW;
+                font-family: 'Rowdies', cursive;
+                font-size: 27px;
+                transition: 250ms;
+                &::before{
+                    position: absolute;
+                    content: "";
+                    width: 0%;
+                    height: 3px;
+                    background-color: $modeW;
+                    top: 42px;
+                    transition: 250ms;
+                }
+                &:hover::before{
+                    width: 100%;
+                    background-color: $textcolor;
+                }
+                
+                &:hover{
+                    color: $textcolor;
+                }
+                    }
+                }
+            
+               
+            }
+        }
+}
+
+
+.faqsSection2{
+    .container{
+        .faqsImgText{
+            .faqsImgTxth6{
+                color: $textcolor;
+                font-family: 'Cabin', sans-serif;
+                font-weight: bold;
+            }
+            .faqsImgTxth1{
+                font-size: 45px;
+                font-family: 'Rowdies', cursive;
+            }
+            .faqsImgIcon{
+                .faqsIcon{
+                    i{
+                        font-size: 25px;
+                        color: $textcolor;
+                        font-weight: bold;
+                    }
+                }
+                .faqsImgIconSpan{
+                    font-size: 18px;
+                    font-weight: bold;
+                }
+            }
+        }
+
+
+
+
+
+        .faqsAccordion{
+            .faqsh3{
+                font-weight: bold;
+                
+                
+            }
+           
+        }
+
+        .accordion-item {
+        border: none;
+        font-size: 17px;
+        font-family: 'Cabin', sans-serif;
+        font-style: italic;
+        .accordion-button{
+        //    background-color:$mode;
+           color: $textcolor;
+           font-weight: bold;
+        }
+               
+            .accordion-button:focus{
+                box-shadow: none;
+                outline: none;
+                border: none;
+                color: $textcolor;
+            }
+           
+            
+            .accordion-button::after{
+                background-image: none;
+                position: absolute;
+                content: '\002b';
+                font-size: 25px;
+                right: 15px;
+                top:11px;
+            }
+            .accordion-button:not(.collapsed)::after{
+                background-image: none;
+                position: absolute;
+                content: '\2212';
+                font-size: 25px;
+                right: 15px;
+                top:11px;
+                transform: none;
+            }
+            .accordion-button:not(.collapsed){
+                box-shadow: none !important;
+            }
+            
+          
+        }
+    }
+}
+
+
+@media (max-width:480px){
+    .faqsSection{
+        .d-flex{
+            .faqsTextFirst{
+                h1{
+                    margin: 125px auto;
+                    span{
+                        font-size: 20px;
+                    }
+                    a{
+                        font-size: 18px;
+                        &::before{
+                            position: absolute;
+                            content: "";
+                            width: 0%;
+                            height: 3px;
+                            background-color: $textcolor;
+                            top: 22px;
+                            transition: 250ms;
+                        }
+                        &:hover::before{
+                            width: 100%;
+                            background-color: $textcolor;
+                        }
+                        
+                        &:hover{
+                            color: $textcolor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

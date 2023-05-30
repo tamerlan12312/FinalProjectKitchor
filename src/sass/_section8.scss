@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,600;1,300&display=swap');
+.section8{
+    .container{
+       .clientSay{
+        .sec8h4{
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            color: $textcolor;
+        }
+        .sec8h3{
+            font-size: 40px;
+            font-weight: 700;
+        }
+        .clientText{
+            cursor: pointer;
+            .fa-quote-left{
+                font-size: 30px;
+                font-style: italic;
+                color: $textcolor;
+            }
+            p{
+                font-size: 20px;
+                font-family: 'Cabin', sans-serif;
+                font-style: italic;
+            }
+            .firstName{
+                font-family: sans-serif;
+                font-weight: bold;
+                transition: 250ms;
+                &:hover{
+                    color: $textcolor;
+                    cursor: pointer;
+                }
+            }
+        }
+       }
+       .slick-arrow {
+        visibility: hidden;
+    }
+    .slick-dots{
+        button{
+            visibility: hidden;
+
+        }
+       }
+    }
+}
+
+@media (max-width:480px){
+    .section8{
+        .container{
+            .clientSay{
+                .sec8h4{
+                    font-size: 18px;
+                }
+                .sec8h3{
+                    font-size: 28px;
+                }
+                .clientText{
+                    p{
+                        font-size: 18px;
+                        text-align: center;
+                    }
+                  
+                }
+            }
+        }
+    }
+}
+@media (max-width:380px){
+    .section8{
+        .container{
+            .clientSay{
+                .sec8h3{
+                    font-size: 25px;
+                }
+                .clientText{
+                    p{
+                        font-size: 15px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}

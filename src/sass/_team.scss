@@ -1,0 +1,222 @@
+.teamSection{
+    width: 100%;
+        height: auto;
+        background-image: url("../image/bgourpricing.jpg");
+        @include bgImagePosition ;
+        .d-flex{
+            .aboutTextFirst2{
+                margin: 10px;
+                h1{
+                    margin: 185px auto;
+                    color: $modeW;
+                    font-size: 27px;
+                    a{
+                        text-decoration: none;
+                        position: relative;
+                text-decoration: none;
+                color: $modeW;
+                font-family: 'Rowdies', cursive;
+                font-size: 27px;
+                transition: 250ms;
+                &::before{
+                    position: absolute;
+                    content: "";
+                    width: 0%;
+                    height: 3px;
+                    background-color: $modeW;
+                    top: 42px;
+                    transition: 250ms;
+                }
+                &:hover::before{
+                    width: 100%;
+                    background-color: $textcolor;
+                }
+                
+                &:hover{
+                    color: $textcolor;
+                }
+                    }
+                }
+            
+               
+            }
+        }
+}
+
+
+
+.teamText{
+
+    .container{
+        .teamNameh6{
+            font-size: 20px;
+            transition: 250ms;
+            &:hover{
+                color: $textcolor;
+                cursor: pointer;
+            }
+            .teamNamespan{
+                font-size: 15px;
+                font-family: 'Cabin', sans-serif;
+                font-weight: bold ;
+            }
+        }
+        .ourText2{
+            .ourh3{
+                font-size: 50px;
+                font-weight: bold;
+            }
+            .ourP2{
+                font-family: 'Cabin', sans-serif;
+                font-weight: bold;
+            }
+            .ourP3{
+                font-family: 'Cabin', sans-serif;
+            }
+            .d-flex{
+                .signatureText{
+                    .signatureh4{
+                        font-size: 15px;
+                        font-weight: bold;
+                        font-family: 'Cabin', sans-serif;
+                       .signaturespan{
+                           font-size: 13px;
+                        font-family: 'Cabin', sans-serif;
+                       }
+                    }
+                }
+            }
+        }
+       .teamh6{
+        font-weight: bold;
+        font-size: 15px;
+        color: $textcolor;
+       }
+       .teamh1{
+        font-family: 'Rowdies', cursive;
+        font-size: 50px;
+       }
+       .teamImg{
+        position: relative;
+        .overlayImg{
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          visibility: hidden;
+        transition: 250ms;
+        height: 0px;
+       .overlayIcon{
+           position: absolute;
+           top: 85%;
+           left: 50%;
+           transform: translate(-50%,-50%);
+           opacity: 0;
+           transition: 250ms;
+           .fa-facebook{
+            margin: 10px;
+            padding: 16px 16px;
+            background-color: $modeW;
+            border-radius: 50%;
+            font-size: 20px;
+          
+            &:hover{
+                background-color: $textcolor ;
+                color: $modeW;
+            }
+        }
+           .fa-twitter{
+            margin: 10px;
+            padding: 16px 16px;
+            background-color: $modeW;
+            border-radius: 50%;
+            font-size: 20px;
+          
+            &:hover{
+                background-color: $textcolor ;
+                color: $modeW;
+            }
+        }
+           .fa-instagram{
+            margin: 10px;
+            padding: 16px 16px;
+            background-color: $modeW;
+            border-radius: 50%;
+            font-size: 20px;
+          
+            &:hover{
+                background-color: $textcolor ;
+                color: $modeW;
+            }
+        }
+       
+       }
+
+        h1{
+            color: red;
+            transform: translateY(0px);
+            transition: 250ms;
+            opacity: 0;
+        }
+    }
+    &:hover{
+        .overlayImg{
+            visibility: visible;
+            background-color: rgba($color: #000000, $alpha: .5);
+            cursor: pointer;
+            height: 100%;
+            .overlayIcon{
+                opacity: 1;
+               
+            }
+            
+           
+          h1{
+            transform: translateY(100px);
+            opacity: 0.1;
+          }
+                
+        }
+    }
+}
+    }
+}
+
+
+@media (max-width:480px){
+    .teamSection{
+        .d-flex{
+            .aboutTextFirst2{
+                h1{
+                    margin: 125px auto;
+                    span{
+                        font-size: 20px;
+                    }
+                    a{
+                        font-size: 18px;
+                        &::before{
+                            position: absolute;
+                            content: "";
+                            width: 0%;
+                            height: 3px;
+                            background-color: $textcolor;
+                            top: 22px;
+                            transition: 250ms;
+                        }
+                        &:hover::before{
+                            width: 100%;
+                            background-color: $textcolor;
+                        }
+                        
+                        &:hover{
+                            color: $textcolor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+

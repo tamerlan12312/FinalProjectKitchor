@@ -1,0 +1,427 @@
+.projectSection{
+    width: 100%;
+        height: auto;
+        background-image: url("../image/servicebg.jpg");
+        @include bgImagePosition ;
+        .d-flex{
+          background-color: rgba($color: #000000, $alpha: .5);
+            .projectTextFirst{
+                margin: 10px;
+                h1{
+                    margin: 185px auto;
+                    color: $modeW;
+                    font-size: 27px;
+                    a{
+                        text-decoration: none;
+                        position: relative;
+                text-decoration: none;
+                color: $modeW;
+                font-family: 'Rowdies', cursive;
+                font-size: 27px;
+                transition: 250ms;
+                &::before{
+                    position: absolute;
+                    content: "";
+                    width: 0%;
+                    height: 3px;
+                    background-color: $modeW;
+                    top: 42px;
+                    transition: 250ms;
+                }
+                &:hover::before{
+                    width: 100%;
+                    background-color: $textcolor;
+                }
+                
+                &:hover{
+                    color: $textcolor;
+                }
+                    }
+                }
+            
+               
+            }
+        }
+}
+
+
+
+
+
+
+.projectBox{
+    margin-top: 70px;
+    margin-bottom: 50px;
+    .projectBoxText{
+        margin: 10px;
+   .projecta{
+    font-weight: 600;
+    position: relative;
+    text-decoration: none;
+    
+    &:before{
+        position: absolute;
+        content: "";
+        width: 0px;
+        top: 23px;
+        height: 2px;
+        background-color: $textcolor;
+        transition: 250ms;
+    }
+    &:hover::before{
+        width: 100%;
+    }
+    
+}
+
+.active{
+    color: $textcolor;
+}
+   }
+
+
+   .projectImg{
+    position: relative;
+    overflow: hidden;
+    img{
+        transition: 250ms;
+    }
+
+   
+    .overlayProjectBox{
+        position: absolute;
+        @include positionCenter ;
+        opacity: 0;
+        transition: opacity  0.4s ease-in-out;
+        background-color: rgba($color: #000000, $alpha: .6);
+        overflow: hidden;
+        .overlayText{
+            position: absolute;
+            bottom: 10%;
+            left: 10%;
+            transform: translate(-10%,-10%);
+           .projecta2{
+            font-family: 'Rowdies', cursive;
+            color: $modeW;
+            transition: 250ms;
+            text-decoration: none;
+            font-size: 23px;
+            &:hover{
+                color: $textcolor;
+            }
+           }
+           .projecth6{
+            color: $modeW;
+            font-style: italic;
+            font-size: small;
+            transition: 250ms;
+            &:hover{
+                color: $textcolor;
+            }
+           }
+          
+        }
+    }
+    &:hover{
+        .overlayProjectBox{
+            opacity: 1;
+            cursor: pointer;
+           
+        }
+        img{
+            transform: scale(1.2);
+            
+        }
+    }
+   }
+}
+
+
+
+.projectDetails{
+    .contact{
+        width: 100%;
+        height: auto;
+        background-image: url("../image/servicebg.jpg");
+        @include bgImagePosition ;
+        // margin-top:52px;
+        // position: relative;
+        .contactBox{
+            // position: absolute;
+            @include positionCenter ;
+            
+        }
+        .container{
+            // margin-top: 100px;
+            padding: 100px;
+            .boxContact{
+                @include displayCenter;
+                a{
+                    position: relative;
+                    text-decoration: none;
+                    color: $modeW;
+                    font-family: 'Rowdies', cursive;
+                    font-size: 30px;
+                    transition: 250ms;
+                    &::before{
+                        position: absolute;
+                        content: "";
+                        width: 0%;
+                        height: 3px;
+                        background-color: $modeW;
+                        top: 42px;
+                        transition: 250ms;
+                    }
+                    &:hover::before{
+                        width: 100%;
+                        background-color: $textcolor;
+                    }
+                    
+                    &:hover{
+                        color: $textcolor;
+                    }
+                }
+                span{
+                    color: $modeW;
+                    font-family: 'Rowdies', cursive;
+                    font-size: 35px;
+                    
+                }
+            }
+            
+        }
+    }
+
+
+
+    
+    .projectDetailsh4{
+        margin-top: 20px;
+        font-size: 40px;
+        font-family: 'Cabin', sans-serif;
+       font-weight: bold;
+    }
+   .d-flex{
+    .projecth3{
+        font-style: italic;
+        transition: 250ms;
+        color: rgb(105, 105, 105);
+        &:hover{
+            cursor: pointer;
+            color: $textcolor;
+        }
+    }
+    .projectSpan{
+        font-weight: bold;
+    }
+ 
+   }
+   .projecth4{
+    font-size: 35px;
+    font-weight: bold;
+ 
+}
+
+
+
+
+
+
+.popupImg{
+    position: relative;
+    .popupBox{
+        position: absolute;
+ 
+    top: 55%;
+    left: 39%;
+
+    .popupIconBox{
+        width: 25px;
+        height: 25px;
+        background-color:$textcolor;
+        border-radius: 50%;
+        @include displayCenter;
+        cursor: pointer;
+        i{
+            color: $modeW;
+            font-size: small;
+        }
+    }
+    .popupIconBox2{
+        width: 25px;
+        height: 25px;
+        background-color:$textcolor;
+        border-radius: 50%;
+        @include displayCenter;
+        cursor: pointer;
+        i{
+            color: $modeW;
+            font-size: small;
+        }
+    }
+   
+ .popupImgBox{
+    width: 150px;
+    height: auto;
+    background-color: #fff;
+    box-shadow: rgba(100,100,111, .2) 0px 7px 29px 0px;
+    border-radius: 5px;
+    margin-left: -13px;
+    cursor: pointer;
+    .popupImgOverlay{
+        overflow: hidden;
+        img{
+            border-radius: 5px;
+            border: none;
+            transition: 250ms;
+            &:hover{
+                transform: scale(1.2);
+                border-radius: 70px;
+            }
+        }
+    }
+    .popupP{
+        font-weight: 500;
+        color: $mode;
+        .popupSpan{
+            color: $textcolor;
+            font-weight: bold;
+        }
+    }
+ }
+    }
+
+
+    .popupBox2{
+        position: absolute;
+        top: 60%;
+        left: 68%;
+        .popupIconBox2{
+            width: 25px;
+            height: 25px;
+            background-color:$textcolor;
+            border-radius: 50%;
+            @include displayCenter;
+            cursor: pointer;
+            i{
+                color: $modeW;
+                font-size: small;
+            }
+        }
+        .popupImgBox{
+            width: 150px;
+            height: auto;
+            background-color: #fff;
+            box-shadow: rgba(100,100,111, .2) 0px 7px 29px 0px;
+            border-radius: 5px;
+            margin-left: 0px;
+            cursor: pointer;
+        
+            .popupImgOverlay{
+                overflow: hidden;
+                img{
+                    border-radius: 5px;
+                    border: none;
+                    transition: 250ms;
+                    &:hover{
+                        transform: scale(1.2);
+                        border-radius: 70px;
+                        
+                    }
+                }
+            }
+            .popupP{
+                font-weight: 500;
+                color: $mode;
+                .popupSpan{
+                    color: $textcolor;
+                    font-weight: bold;                
+                }
+            }
+         }
+       
+    }
+}
+
+.projectTextBox{
+  .projectTextP{
+     font-family: 'Cabin', sans-serif;
+     font-size: 18px;
+  }
+  .projectTextPbox{
+    border-left: 4px solid $textcolor;
+    font-style: italic;
+    transform: translateX(5px);
+  }
+}
+.projectTextBox2{
+    border-left: 4px solid $textcolor;
+    transform: translateX(5px);
+ .projectTextIcon{
+    h6{
+        font-weight: bold;
+    }
+    i{
+        font-size: medium;
+        transition: 250ms;
+        &:hover{
+            color: $textcolor;
+            cursor: pointer;
+        }
+    }
+   
+ }
+}
+.projectTextBox3{
+    .projecth5{
+        font-size: 28px;
+        font-family: 'Cabin', sans-serif;
+        font-weight: bold;
+    }
+    .projectP{
+         font-weight: bold;
+    }
+    .projectP2{
+      font-weight: 500;
+    }
+}
+}
+
+
+@media (max-width:480px){
+    .projectSection{
+        .d-flex{
+            .projectTextFirst{
+                h1{
+                    margin: 125px auto;
+                    span{
+                        font-size: 20px;
+                    }
+                    a{
+                        font-size: 18px;
+                        &::before{
+                            position: absolute;
+                            content: "";
+                            width: 0%;
+                            height: 3px;
+                            background-color: $textcolor;
+                            top: 22px;
+                            transition: 250ms;
+                        }
+                        &:hover::before{
+                            width: 100%;
+                            background-color: $textcolor;
+                        }
+                        
+                        &:hover{
+                            color: $textcolor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+

@@ -1,0 +1,181 @@
+html{
+    overflow-x: hidden;
+}
+
+
+.boxSectionImg1{
+        width: 100%;
+    height: auto;
+    background-image: url("https://demo2.themelexus.com/kitchor/wp-content/uploads/2022/06/rev_home6_1.jpg");
+   @include bgImagePosition ;
+   position: relative;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+
+ 
+.section1Box{
+    background-color:rgba($color: #000000, $alpha: .5);
+   .d-flex{
+h1{
+    margin: 250px auto;
+    transform: translateY(-30px);
+width: 100%;
+color: $modeW;
+font-family: 'Merriweather', serif;
+font-size: 60px;
+}
+.boxSection1Text2{
+    transform: translateY(-270px);
+   h6{
+    color: $modeW;
+    font-weight: bold;
+    font-size: 25px;
+   }
+   .section1Button{
+  a{
+    padding: 10px 30px;
+    background-color: $modeW;
+    font-family: 'Rowdies', serif;
+    text-decoration: none;
+    color: $mode;
+    border-radius: 20px;
+    font-size: 15px;
+    transition: 250ms;
+    i{
+        transition: 250ms;
+    }
+    &:hover{
+        background-color: $textcolor;
+        color: $modeW;
+        i{
+            transform: translateX(10px);
+        }
+
+    }
+  }
+   }
+}
+   }
+  
+}
+}
+
+
+
+.boxSectionimg2 {
+    width: 100%;
+    height: auto;
+    background-image: url("https://demo2.themelexus.com/kitchor/wp-content/uploads/2022/06/rev_home2_2.jpg");
+    @include bgImagePosition ;
+   position: relative;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   .section1Box{
+    background-color:rgba($color: #000000, $alpha: .5);
+   .d-flex{
+h1{
+    margin: 250px auto;
+    transform: translateY(-30px);
+width: 100%;
+color: $modeW;
+font-family: 'Merriweather', serif;
+font-size: 60px;
+}
+.boxSection1Text2{
+    transform: translateY(-270px);
+   h6{
+    color: $modeW;
+    font-weight: bold;
+    font-size: 25px;
+   }
+   .section1Button{
+  a{
+    padding: 10px 30px;
+    background-color: $modeW;
+    font-family: 'Rowdies', serif;
+    text-decoration: none;
+    color: $mode;
+    border-radius: 20px;
+    font-size: 15px;
+    transition: 250ms;
+    i{
+        transition: 250ms;
+    }
+    &:hover{
+        background-color: $textcolor;
+        color: $modeW;
+        i{
+            transform: translateX(10px);
+        }
+
+    }
+  }
+   }
+}
+   }
+  
+}
+ 
+}
+
+
+.boxSectionimg3 {
+    width: 100%;
+    height: auto;
+    background-image: url("https://demo2.themelexus.com/kitchor/wp-content/uploads/2022/06/rev_home3_1.jpg");
+    @include bgImagePosition ;
+   position: relative;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   .section1Box{
+    background-color:rgba($color: #000000, $alpha: .5);
+   .d-flex{
+h1{
+    margin: 250px auto;
+    transform: translateY(-30px);
+width: 100%;
+color: $modeW;
+font-family: 'Merriweather', serif;
+font-size: 60px;
+}
+.boxSection1Text2{
+    transform: translateY(-270px);
+   h6{
+    color: $modeW;
+    font-weight: bold;
+    font-size: 25px;
+   }
+   .section1Button{
+  a{
+    padding: 10px 30px;
+    background-color: $modeW;
+    font-family: 'Rowdies', serif;
+    text-decoration: none;
+    color: $mode;
+    border-radius: 20px;
+    font-size: 15px;
+    transition: 250ms;
+    i{
+        transition: 250ms;
+    }
+    &:hover{
+        background-color: $textcolor;
+        color: $modeW;
+        i{
+            transform: translateX(10px);
+        }
+
+    }
+  }
+   }
+}
+   }
+  
+}
+}
+.slick-arrow {
+  display: none !important;
+}
+
+
+

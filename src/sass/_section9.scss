@@ -1,0 +1,20 @@
+.section9{
+    .boxCountUp1{
+      
+        .counth3{
+            font-size: 60px;
+            font-family: 'Rowdies', cursive;
+            color: $textcolor;
+        }
+        .counth4{
+            font-family: 'Cabin', sans-serif;
+            font-weight: bold;
+            transition: 250ms;
+            &:hover{
+                cursor: pointer;
+                color: $textcolor;
+            }
+        }
+    }
+}
+

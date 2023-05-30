@@ -1,0 +1,158 @@
+
+.contactSection{
+    .contactSection2{
+        width: 100%;
+            height: auto;
+            background-image: url("../image/servicebg.jpg");
+            @include bgImagePosition ;
+            .d-flex{
+              background-color: rgba($color: #000000, $alpha: .5);
+                .contactTextFirst{
+                    margin: 10px;
+                    h1{
+                        margin: 185px auto;
+                        color: $modeW;
+                        font-size: 27px;
+                        a{
+                            text-decoration: none;
+                            position: relative;
+                    text-decoration: none;
+                    color: $modeW;
+                    font-family: 'Rowdies', cursive;
+                    font-size: 27px;
+                    transition: 250ms;
+                    &::before{
+                        position: absolute;
+                        content: "";
+                        width: 0%;
+                        height: 3px;
+                        background-color: $modeW;
+                        top: 42px;
+                        transition: 250ms;
+                    }
+                    &:hover::before{
+                        width: 100%;
+                        background-color: $textcolor;
+                    }
+                    
+                    &:hover{
+                        color: $textcolor;
+                    }
+                        }
+                    }
+                
+                   
+                }
+            }
+    }
+
+
+
+    .container-fluid{
+        .contacth6{
+            color: $textcolor;
+            font-weight: bold ;
+           font-size: 17px;
+        }
+        .contacth1{
+            font-family: 'Rowdies', cursive;
+            font-size: 45px;
+
+        }
+        p{
+            font-family: 'Cabin', sans-serif;
+        }
+        .boxContactIcon{
+            color: $textcolor;
+            font-size: 20px;
+            .contacth6icon{
+                font-weight: bold;
+            }
+            .contactp{
+                font-size: medium;
+            }
+        }
+    }
+    .container{
+        .formTxt{
+            .formh1{
+                @include displayCenter ;
+                font-family: 'Rowdies', cursive;
+            }
+            .formp{
+                font-weight: 600;
+            }
+        }
+        form{
+            margin: 0 auto;
+            max-width: 800px;
+            .form-control{
+                height: 50px;
+                transition: 250ms;
+                &::placeholder{
+                    color: $mode;
+                }
+                &:focus{
+                    outline: none;
+                    box-shadow: none;
+                    border-color:$textcolor;
+                }
+            }
+            .btn{
+                padding: 10px 15px;
+                color: $modeW;
+                font-family: 'Cabin', sans-serif;
+                font-weight:bold;
+                background-color: $darkalpha;
+                i{
+                    transition: 250ms;
+                }
+                &:hover{
+                    color: $textcolor;
+                    i{
+                        transform: translateX(10px);
+                        color: $modeW;
+                    }
+                }
+            }
+           }
+    }
+  
+}
+
+@media (max-width:480px){
+   .contactSection{
+    .contactSection2{
+        .d-flex{
+            .contactTextFirst{
+                h1{
+                    margin: 125px auto;
+                    span{
+                        font-size: 20px;
+                    }
+                    a{
+                        font-size: 18px;
+                        &::before{
+                            position: absolute;
+                            content: "";
+                            width: 0%;
+                            height: 3px;
+                            background-color: $textcolor;
+                            top: 22px;
+                            transition: 250ms;
+                        }
+                        &:hover::before{
+                            width: 100%;
+                            background-color: $textcolor;
+                        }
+                        
+                        &:hover{
+                            color: $textcolor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+   }
+}

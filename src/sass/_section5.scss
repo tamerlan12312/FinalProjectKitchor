@@ -1,0 +1,75 @@
+.section5{
+    width: 100%;
+    height: auto;
+    background-image: url("../image/section5bg.jpg");
+    @include bgImagePosition ;
+    background-attachment: fixed;
+    // position: relative;
+    margin-bottom: 40px;
+   .promoText{
+
+    .promoh6{
+        color: $textcolor;
+        font-family: 'Cabin', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        &::selection{
+            background-color: $textcolor;
+            color: $modeW;
+         }
+    }
+    h4{
+        font-size: 50px;
+        color: $modeW;
+        font-family: 'Rowdies', cursive;
+            &::selection{
+            background-color: $textcolor;
+            color: $modeW;
+         }
+        
+    }
+    p{
+        color: $modeW;
+        font-size: 17px;
+        font-family: 'Cabin', sans-serif;
+            &::selection{
+            background-color: $textcolor;
+            color: $modeW;
+         }
+        
+    }
+    a{
+        text-decoration: none;
+        color: $mode;
+        font-family: 'Cabin', sans-serif;
+        font-weight: bold;
+        padding: 13px 35px;
+        background-color: $modeW;
+        border-radius: 50px;
+        transition: 250ms;
+            &::selection{
+            background-color: $textcolor;
+            color: $modeW;
+         }
+        
+        i{
+            transition: 150ms;
+            color: $textcolor
+            
+        }
+        &:hover{
+            background-color: $textcolor;
+            color: $modeW;
+            i{
+                transform: scale(1.2);
+                color: $modeW;
+            }
+        }
+
+    }
+   }
+}
+
+
+
+

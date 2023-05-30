@@ -1,0 +1,258 @@
+.bg-white{
+    background-color: #fff;
+    transition: 250ms;
+    .nav-link{
+        color: $mode ;
+    }
+    .nav-link:focus{
+        color: $textcolor;
+       }
+       .navbar-brand{
+        width: 200px;
+        height: 40px;
+        background-repeat: no-repeat;
+        background-image: url("https://demo2.themelexus.com/kitchor/wp-content/uploads/2022/06/logo.svg");
+       }
+       .scrolToTop{
+        background-color: $textcolor;
+        color: $modeW;
+        border-radius: 30%;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 250ms;
+    
+       }
+       .navbar{
+        background-color: #fff;
+        transition: 250ms;
+       }
+       
+   .fa-xmark{
+    color: $textcolor;
+   }
+   .fa-bars-staggered{
+    color: $textcolor;
+   }
+    .navbar-toggler{
+        border: none;
+        color: $modeW;
+        &:focus{
+            color: $modeW;
+    
+        }
+    }
+    .slick-dots li button:before{
+        font-weight: bolder ;
+        color: $mode ;
+    }
+    .boxSection2Text{
+        h1{
+            color: $mode;
+        }
+    }
+    .boxText{
+        .icontext{
+            color: $mode;
+        }
+    }
+    .boxSvg{
+        .pathIcon{
+            fill: $mode ;
+    
+        }
+        .pathText{
+           fill: $mode  ;
+        }
+    }
+    .section10{
+        .readMore{
+            color: $mode;
+        }
+    }
+    .comingsoon{
+        .coming{
+            background-color: rgba($color: #000000, $alpha: .3);
+        }
+    }
+    .contact{
+        .contactBox{
+            background-color: rgba($color: #000000, $alpha: .3);
+        }
+    }
+    .contactSection{
+        .d-flex{
+            .contacth6icon{
+                color: $mode;
+            }
+           }
+    }
+    .hr{
+        color: $mode;
+    }
+    .container{
+        .colBox2{
+            background-color: $modeW;
+            
+        }
+        .colBox{
+            background-color: $modeW;
+              border-left:1px solid rgb(238, 238, 238) ;
+
+        }
+        .ourh1{
+            color: $mode;
+        }
+        p{
+            color: $mode;
+            
+        }
+        .ourBox1{
+            h6{
+                color: $mode;
+
+            }
+            .ourTxtA{
+                a{
+                    background-color: $darkalpha;
+                }
+            }
+        }
+    }
+    .service{
+        .serviceBox{
+            background-color: rgba($color: #000000, $alpha: .5);
+        }
+    }
+   
+
+    .serviceText{
+        background-color: $ourcolor ;
+        .container{
+            .boxSvg{
+                background-color: $modeW;
+            }
+        }
+        .svgA{
+            color: $mode;
+        }
+        .svgColor{
+            fill: $darkalpha2;
+        }
+        .serviceTxth1{
+            color: #30373E;
+        }
+    }
+    .accordion-item{
+        background-color: $modeW;
+        color: $darkalpha;
+        .accordion-button{
+            background-color: $modeW;
+        }
+    }
+    .faqsh3{
+        color: $darkalpha;
+    }
+    .gridA{
+        color: $mode;
+    }
+    .listText3{
+        .listText3p{
+            color: $darkalpha ;
+        }
+    }
+    .listTexth3{
+        color: $darkalpha ;
+    }
+    .tagA2{
+        color: $mode;
+    }
+    .commenth6{
+        color: $darkalpha;
+    }
+    .listTagA{
+        color: $mode;
+        border: 1px solid rgb(221, 221, 221);
+    }
+    .projecta:focus{
+        color: $textcolor;
+    }
+    .projecta{
+        color: $mode;
+    }
+    .projectDetailsh4{
+        color: $darkalpha;
+    }
+    .projectP{
+        color: $darkalpha;
+    }
+    .projectTextIcon{
+        i{
+            color: $darkalpha;
+        }
+    }
+    .detailsh1{
+        color: $darkalpha;
+    }
+    .tabs{
+        color:rgb(44, 44, 44);
+    }
+    .tabP{
+        color: rgb(65, 65, 65);
+    }
+    .comenth6{
+        color: $darkalpha;
+    }
+    .carth4{
+        color: $darkalpha;
+    }
+    .shoph6{
+        color: $mode;
+    }
+    .cartBox2a{
+        color: $mode;
+    }
+    .cartBox{
+        &:hover{
+            box-shadow: rgba(100,100,111, .2) 0px 7px 29px 0px;
+            cursor: pointer;
+            img{
+                transform: scale(0.8);
+          }
+        }
+    }
+    .detailsCart{
+    background-image: url("https://demo2.themelexus.com/kitchor/wp-content/uploads/2022/06/logo.svg");
+    background-color: #fff;
+    box-shadow: rgba(190, 190, 190, 0.2) 0px 0px 15px 0px;    
+}
+.itemtext2{
+    color: $textcolor;
+}
+.fa-cart-arrow-down{
+    color: $mode;
+}
+.fa-door-open{
+    color: $mode;
+
+}
+.user2{
+    color: $textcolor;
+   }
+.fa-moon
+{
+    color: $mode;
+}
+.kitchorImg{
+    width: 200px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-image: url("https://demo2.themelexus.com/kitchor/wp-content/uploads/2022/06/logo.svg") ;
+}
+.fa-heart{
+    color:$mode;
+}
+}
+
+

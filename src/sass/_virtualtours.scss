@@ -1,0 +1,186 @@
+.virtualTours{
+    width: 100%;
+        height: auto;
+        background-image: url("../image/bgourpricing.jpg");
+        @include bgImagePosition ;
+        .d-flex{
+            .virtualText{
+                margin: 10px;
+                h1{
+                    margin: 185px auto;
+                    color: $modeW;
+                    font-size: 27px;
+                    a{
+                        text-decoration: none;
+                        position: relative;
+                text-decoration: none;
+                color: $modeW;
+                font-family: 'Rowdies', cursive;
+                font-size: 27px;
+                transition: 250ms;
+                &::before{
+                    position: absolute;
+                    content: "";
+                    width: 0%;
+                    height: 3px;
+                    background-color: $modeW;
+                    top: 42px;
+                    transition: 250ms;
+                }
+                &:hover::before{
+                    width: 100%;
+                    background-color: $textcolor;
+                }
+                
+                &:hover{
+                    color: $textcolor;
+                }
+                    }
+                }
+            
+               
+            }
+        }
+}
+
+
+
+.virtualBox{
+    .virtualImg{
+        position: relative;
+        img{
+            border: none;
+        }
+        .virtualText{
+            transition: 150ms;
+            .virtualh1{
+                font-size: 21px;
+            }
+        }
+        &:hover{
+            cursor: pointer;
+            .virtualText{
+              color: $textcolor;    
+            }
+        }
+    }
+}
+.virtualTitle1{
+    font-size: 45px;
+    font-weight: bold;
+}
+.virtualTitle2{
+    font-size: 17px;
+}
+
+
+@media (max-width:540px){
+    .virtualTours{
+        .d-flex{
+            .virtualText{
+                h1{
+                    margin: 125px auto;
+                    span{
+                        font-size: 20px;
+                    }
+                    a{
+                        font-size: 18px;
+                        &::before{
+                            position: absolute;
+                            content: "";
+                            width: 0%;
+                            height: 3px;
+                            background-color: $textcolor;
+                            top: 22px;
+                            transition: 250ms;
+                        }
+                        &:hover::before{
+                            width: 100%;
+                            background-color: $textcolor;
+                        }
+                        
+                        &:hover{
+                            color: $textcolor;
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width:480px) { 
+    .virtualTours{
+        .d-flex{
+            .virtualText{
+                h1{
+                    margin: 125px auto;
+                    span{
+                        font-size: 18px;
+                    }
+                    a{
+                        font-size: 14px;
+                        &::before{
+                            position: absolute;
+                            content: "";
+                            width: 0%;
+                            height: 3px;
+                            background-color: $textcolor;
+                            top: 22px;
+                            transition: 250ms;
+                        }
+                        &:hover::before{
+                            width: 100%;
+                            background-color: $textcolor;
+                        }
+                        
+                        &:hover{
+                            color: $textcolor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+    .virtualTitle1{
+        font-size: 35px;
+    }
+    .virtualTitle2{
+        font-size: 14px;
+    }
+    .virtualBox{
+       .container{
+        .virtualText{
+            .virtualh1{
+                font-size: 15px;
+            }
+           }
+       }
+    }
+    
+}
+
+@media (max-width:370px) {
+
+    .virtualTitle2{
+        font-size: 12px;
+    }
+    .virtualBox{
+        .container{
+         .virtualText{
+             .virtualh1{
+                 font-size: 13px;
+             }
+            }
+        }
+     }
+}

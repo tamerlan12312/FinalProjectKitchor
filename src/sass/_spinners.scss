@@ -1,0 +1,10 @@
+.spinners{
+    @include displayCenter ;
+height: 80vh;
+}
+
+@media (max-width:480px){
+   .spinners{
+    height: 40vh;
+   }
+}

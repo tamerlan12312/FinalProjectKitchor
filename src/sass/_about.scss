@@ -1,0 +1,239 @@
+
+
+.aboutSection{
+    width: 100%;
+        height: auto;
+        background-image: url("../image/bgourpricing.jpg");
+        @include bgImagePosition ;
+        .d-flex{
+            .aboutTextFirst{
+                margin: 10px;
+                h1{
+                    margin: 185px auto;
+                    color: $modeW;
+                    font-size: 27px;
+                    a{
+                        text-decoration: none;
+                        position: relative;
+                text-decoration: none;
+                color: $modeW;
+                font-family: 'Rowdies', cursive;
+                font-size: 27px;
+                transition: 250ms;
+                &::before{
+                    position: absolute;
+                    content: "";
+                    width: 0%;
+                    height: 3px;
+                    background-color: $modeW;
+                    top: 42px;
+                    transition: 250ms;
+                }
+                &:hover::before{
+                    width: 100%;
+                    background-color: $textcolor;
+                }
+                
+                &:hover{
+                    color: $textcolor;
+                }
+                    }
+                }
+            
+               
+            }
+        }
+}
+
+.aboutText{
+    .container{
+        .aboutText2{
+            .abouth5{
+                color: $textcolor;
+                margin-top: 60px;
+                font-weight: bold;
+                font-size: 14px;
+            }
+            .abouth4{
+                font-family: 'Rowdies', cursive;
+                font-size: 35px;
+            }
+            .abouth6{
+                font-size: 18px;
+            }
+            .abouta{
+                padding: 10px 25px;
+                color: $modeW;
+                text-decoration: none;
+                border-radius: 20px;
+                font-size: 15px;
+                font-family: 'Cabin', sans-serif;
+                background-color: $darkalpha;
+                transition: 150ms;
+                .fa-arrow-right-long{
+                    transition: 150ms;
+                }
+                &:hover{
+                    color: $textcolor;
+                    i{
+                        transform: translateX(10px);
+                    }
+                }
+            }
+        }
+        .aboutTxtIcon{
+       i{
+        color: $textcolor;
+        font-size: 45px;
+       }
+       .aboutP{
+        font-size: 18px;
+        font-family: 'Cabin', sans-serif;
+       }
+
+        }
+    }
+
+.aboutbg{
+    width: 100%;
+    height: auto;
+    background-image: url("../image/about2bg.jpg");
+    @include bgImagePosition;
+    background-attachment: fixed;
+    .abouth1{
+        @include displayCenter;
+        margin: 100px auto;
+        color: $textcolor;
+        font-size: 15px;
+        font-weight: bold;
+        &::selection{
+            background-color: $textcolor;
+            color: $modeW;
+        }
+    }
+  
+    .abouth1-1{
+        font-size: 50px;
+        font-family: 'Rowdies', cursive;
+        color: $modeW;
+        transform: translateY(-90px);
+        &::selection{
+            background-color: $textcolor;
+            color: $modeW;
+        }
+    }
+}
+
+
+    .aboutLastText{
+        .aboutLasth6{
+            color: $textcolor;
+            font-weight: bold;
+        }
+        .aboutLasth1{
+            font-size: 50px;
+         font-weight: bold;
+        }
+        .container{
+            .awardsh6{
+                color: $textcolor;
+                font-size: 23px;
+                font-weight: bold;
+            }
+            .awardsh6best{
+                font-size: 23px;
+                font-family: 'Cabin', sans-serif;
+                font-weight: bold;
+            }
+            .awardsh6best2{
+                font-size: 18px;
+            }
+            .fa-arrow-right-long{
+                font-size: 23px;
+                transition: 150ms;
+                cursor: pointer;
+                &:hover{
+                    color: $textcolor;
+                    transform: translateX(10px);
+                }
+            
+            }
+        }
+    }
+}
+
+
+
+@media (max-width:480px) { 
+    .aboutSection{
+        .d-flex{
+            .aboutTextFirst{
+                h1{
+                    margin: 125px auto;
+                    span{
+                        font-size: 20px;
+                    }
+                    a{
+                        font-size: 18px;
+                        &::before{
+                            position: absolute;
+                            content: "";
+                            width: 0%;
+                            height: 3px;
+                            background-color: $textcolor;
+                            top: 22px;
+                            transition: 250ms;
+                        }
+                        &:hover::before{
+                            width: 100%;
+                            background-color: $textcolor;
+                        }
+                        
+                        &:hover{
+                            color: $textcolor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+    .virtualTitle1{
+        font-size: 35px;
+    }
+    .virtualTitle2{
+        font-size: 14px;
+    }
+    .virtualBox{
+       .container{
+        .virtualText{
+            .virtualh1{
+                font-size: 15px;
+            }
+           }
+       }
+    }
+    
+}
+
+@media (max-width:370px) {
+
+    .virtualTitle2{
+        font-size: 12px;
+    }
+    .virtualBox{
+        .container{
+         .virtualText{
+             .virtualh1{
+                 font-size: 13px;
+             }
+            }
+        }
+     }
+}

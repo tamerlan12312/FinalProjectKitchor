@@ -1,0 +1,197 @@
+.serviceSection{
+    width: 100%;
+        height: auto;
+        background-image: url("../image/servicebg.jpg");
+        @include bgImagePosition ;
+        .d-flex{
+          background-color: rgba($color: #000000, $alpha: .5);
+            .serviceTextFirst{
+                margin: 10px;
+                h1{
+                    margin: 185px auto;
+                    color: $modeW;
+                    font-size: 27px;
+                    a{
+                        text-decoration: none;
+                        position: relative;
+                text-decoration: none;
+                color: $modeW;
+                font-family: 'Rowdies', cursive;
+                font-size: 27px;
+                transition: 250ms;
+                &::before{
+                    position: absolute;
+                    content: "";
+                    width: 0%;
+                    height: 3px;
+                    background-color: $modeW;
+                    top: 42px;
+                    transition: 250ms;
+                }
+                &:hover::before{
+                    width: 100%;
+                    background-color: $textcolor;
+                }
+                
+                &:hover{
+                    color: $textcolor;
+                }
+                    }
+                }
+            
+               
+            }
+        }
+}
+.serviceText{
+    width: 100%;
+    height: auto;
+
+    .serviceTitle{
+        // transform: translateY(60px);
+        .serviceh6{
+            font-family: 'Cabin', sans-serif;
+            font-weight: bold;
+            font-size: 15px;
+            color: $textcolor;
+        }
+        .serviceh1{
+            font-family: 'Rowdies', cursive;
+            font-size: 50px;
+        }
+    }
+
+    .container{
+        .boxSvg{
+            width: 100%;
+            height:43vh;
+      .svgh5{
+        font-size: 20px;
+      }
+            .svgA{
+                text-decoration: none;
+                font-weight: bold;
+                transition: 250ms;
+                i{
+                    transition: 250ms;
+                }
+                &:hover{
+                    color: $textcolor ;
+                    i{
+                        color: $textcolor;
+                        transform: translateX(10px);
+                    }
+                }
+            }
+            .SvgIcon{
+                svg{
+                    .svgColor{
+                        transition: 150ms;
+                       
+                    }
+                    
+                }
+               &:hover{
+                .svgh5{
+                    color: $textcolor;
+                transition: 250ms;
+                }
+               }
+               
+            }
+            &:hover{
+               .SvgIcon{
+                svg{
+                    .svgColor{
+                        fill: $textcolor ;
+                    }
+                }
+              
+               }
+               cursor: pointer;
+            }
+           
+        }
+    }
+    .container-fluid{
+        .serviceTxt{
+            .serviceTxth5{
+                color: $textcolor;
+                font-family: 'Cabin', sans-serif;
+                font-weight: bold;
+            }
+            .serviceTxth1{
+                font-size: 50px;
+                font-weight: bold;
+               
+            }
+            .serviceTxtp{
+                font-family: 'Cabin', sans-serif;
+                font-size: 16px;
+            }
+            
+        }
+        .serviceIcon{
+           width: 90px;
+           height: 90px;
+           border-radius: 50%;
+           background-color: #DAA14C;
+           @include displayCenter;
+           i{
+               color: $modeW ;
+               font-size: 35px;
+            }
+        }
+        .serviceIconText{
+            .serviceIconTexth6{
+                font-size: 30px;
+                font-weight: bold;
+                color: #DAA14C;
+                font-family: 'Rowdies', cursive;
+            }
+            .serviceIconTexth62{
+                font-family: 'Cabin', sans-serif;
+                font-weight: bold;
+                font-size: small
+            }
+         }
+    }
+  
+}
+
+
+
+@media (max-width:480px){
+    .serviceSection{
+        .d-flex{
+            .serviceTextFirst{
+                h1{
+                    margin: 125px auto;
+                    span{
+                        font-size: 20px;
+                    }
+                    a{
+                        font-size: 18px;
+                        &::before{
+                            position: absolute;
+                            content: "";
+                            width: 0%;
+                            height: 3px;
+                            background-color: $textcolor;
+                            top: 22px;
+                            transition: 250ms;
+                        }
+                        &:hover::before{
+                            width: 100%;
+                            background-color: $textcolor;
+                        }
+                        
+                        &:hover{
+                            color: $textcolor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,75 @@
+
+.boxCount{
+    width: 100%;
+    max-width: 100%;
+    .boxCounter{
+        h1{
+            font-size: 70px;
+            color: $textcolor2;
+            font-family: 'Rowdies', cursive;
+            &::selection{
+                background-color: $textcolor;
+             }
+        }
+    }
+    .boxCounterText{
+    h5{
+     font-weight: bold;
+     &::selection{
+        background-color: $textcolor;
+     }
+     
+    }
+}
+}
+.boxSection2Text{
+    h6{
+        color: $textcolor;
+        font-weight: bold;
+
+         &::selection{
+        background-color: $textcolor;
+     }
+    }
+    h1{
+       font-size: 37px;
+       font-family: 'Cabin', sans-serif;
+        &::selection{
+        background-color: $textcolor;
+     }
+    }
+}
+.boxSection2Text1{
+    p{
+        text-align: left;
+        font-size: 18px;
+        font-family: 'Cabin', sans-serif;
+        &::selection{
+            background-color: $textcolor;
+            color: $modeW;
+         }
+    }
+    a{
+        padding: 10px 35px;
+        background-color: $darkalpha;
+        color: $modeW;
+        text-decoration: none;
+        border-radius: 20px;
+        font-family: 'Cabin', sans-serif;
+        transition: 250ms;
+        &::selection{
+            background-color: $textcolor;
+         }
+        i{
+            transition: 250ms;
+        }
+        &:hover{
+            background-color: $textcolor2;
+            color: $modeW;
+            i{
+                transform: translateX(10px);
+            }
+        }
+    
+    }
+}

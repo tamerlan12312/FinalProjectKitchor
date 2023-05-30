@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Cabin:wght@500;600&family=Domine:wght@600&family=Merriweather:wght@700&family=Prompt:wght@500&family=Signika+Negative:wght@600&family=Source+Sans+Pro:wght@600&display=swap');
+.section4{
+    width: 100%;
+    height: auto;
+    background-image: url("../image/bg.png");
+    @include bgImagePosition ;
+
+    h5{
+        font-family: 'Cabin', sans-serif;
+        color: $textcolor2;
+         &::selection{
+        background-color: $textcolor;
+        color: $modeW;
+     }
+    }
+    h2{
+        font-family: 'Rowdies', cursive;
+        font-size: 50px;
+         &::selection{
+        background-color: $textcolor;
+     }
+    }
+  .services{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    cursor: pointer;
+    .serviceIcon{
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        background-color: #32343b;
+       @include displayCenter ;
+        border-radius: 50%;
+        color: $modeW;
+        font-size: 50px;
+        transition: 250ms;
+        top: 50px;
+    }
+    &:hover{
+        .serviceIcon{
+            background-color: $textcolor2;
+            transform: scale(1.2);
+        }
+        .boxText{
+          .icontext{
+            color: $textcolor2;
+          }
+        }
+    }
+   .boxText{
+    width: 100%;
+    height: auto;
+    margin-top: 180px;
+    .icontext{
+        // color: $mode;
+        font-family: sans-serif;
+        font-weight: bold;
+        transition: 250ms;
+    }
+    p{
+        font-weight: bold;
+        &::selection{
+            background-color: $textcolor;
+            color: $modeW;
+         }
+    }
+
+   }
+   
+
+  }
+}
+

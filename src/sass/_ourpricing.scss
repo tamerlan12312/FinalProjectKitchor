@@ -1,0 +1,147 @@
+.ourSection{
+    width: 100%;
+        height: auto;
+        background-image: url("../image/bgourpricing.jpg");
+        @include bgImagePosition ;
+        .d-flex{
+            .ourTextFirst{
+                margin: 10px;
+                h1{
+                    margin: 185px auto;
+                    color: $modeW;
+                    font-size: 27px;
+                    a{
+                        text-decoration: none;
+                        position: relative;
+                text-decoration: none;
+                color: $modeW;
+                font-family: 'Rowdies', cursive;
+                font-size: 27px;
+                transition: 250ms;
+                &::before{
+                    position: absolute;
+                    content: "";
+                    width: 0%;
+                    height: 3px;
+                    background-color: $modeW;
+                    top: 42px;
+                    transition: 250ms;
+                }
+                &:hover::before{
+                    width: 100%;
+                    background-color: $textcolor;
+                }
+                
+                &:hover{
+                    color: $textcolor;
+                }
+                    }
+                }
+            
+               
+            }
+        }
+   .ourh4{
+    transform: translateY(-180px);
+    color: $modeW;
+    font-size: 20px;
+   }
+}
+
+.ourText{
+    width: 100%;
+    height: auto;
+    background-color: $ourcolor;
+    .ourBox{
+        .ourh1{
+            font-weight: bolder;
+        }
+        p{
+            font-family: 'Cabin', sans-serif;
+        }
+    }
+   .container{    
+
+    .colBox{
+        &:hover{
+            border: 1px solid $textcolor;
+
+        }
+        h3{
+           font-family: 'Rowdies', cursive;
+           font-size: 50px;
+           color: $textcolor;
+           sup{
+            font-size: 35px;
+           }
+        sub{
+            font-size: small;
+            font-family: 'Cabin', sans-serif;
+            font-weight: bold;
+        }
+       }
+          .ourTxtA{
+            @include displayCenter ;
+            a{
+                
+                padding:  10px 35px;
+                border-radius: 20px;
+                color: $modeW;
+                text-decoration: none;
+                font-weight: bold;
+                transition: 250ms;
+                i{
+                    transition: 250ms;
+                }
+                &:hover{
+                    color: $textcolor;
+                    i{
+                        transform: translateX(10px);
+                    }
+                }
+            }
+          }
+    }
+   }
+}
+
+@media (max-width:480px){
+    .ourSection{
+        .d-flex{
+            .ourTextFirst{
+                h1{
+                    margin: 125px auto;
+                    span{
+                        font-size: 20px;
+                    }
+                    a{
+                        font-size: 18px;
+                        &::before{
+                            position: absolute;
+                            content: "";
+                            width: 0%;
+                            height: 3px;
+                            background-color: $textcolor;
+                            top: 22px;
+                            transition: 250ms;
+                        }
+                        &:hover::before{
+                            width: 100%;
+                            background-color: $textcolor;
+                        }
+                        
+                        &:hover{
+                            color: $textcolor;
+                        }
+                    }
+                }
+            }
+        }
+        .ourh4{
+            transform: translateY(-130px);
+            color: $modeW;
+            font-size: 15px;
+           }
+    }
+}
+

@@ -1,0 +1,558 @@
+html {
+    overflow-x: hidden;
+}
+
+.bg-dark{
+    background-color: $mode;
+    transition: 250ms;
+    .active2{
+        color: $textcolor ;
+    }
+    .nav-link{
+        color: $modeW ;
+    }
+    .nav-link:focus{
+        color: $textcolor;
+       }
+   .navbar-brand{
+    width: 250px;
+    height: 40px;
+    background-image: url("https://demo2.themelexus.com/kitchor/wp-content/uploads/2022/06/logo-2.svg");
+    background-repeat: no-repeat;
+   }
+   .fa-user{
+    color: $modeW;
+   }
+   .fa-door-open{
+    color: $modeW;
+   }
+   .user2{
+    color: $textcolor;
+   }
+   .fa-cart-arrow-down{
+    color: $modeW;
+   }
+   .fa-sun{
+    color: $modeW;
+   }
+   .scrolToTop{
+    background-color: $textcolor;
+    color: $modeW;
+    border-radius: 30%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 250ms;
+   }
+   .navbar{
+    background-color: $mode;
+    transition: 250ms;
+
+
+   .fa-xmark{
+    color: $textcolor;
+   }
+   .fa-bars-staggered{
+    color: $textcolor;
+   }
+    .navbar-toggler{
+        border: none;
+        color: $mode;
+        &:focus{
+            color: $mode;
+        }
+    }
+   }
+   .slick-dots li button:before{
+    font-weight: bolder ;
+    color: $modeW ;
+}
+.boxCount{
+        border-left: 5px solid $count;
+        h5{
+            color: $modeW;
+        }
+}
+.boxSection2Text{
+    h1{
+        color: $modeW;
+    }
+}
+
+.section4{
+    h2{
+        color: $modeW;
+    }
+    .boxText{
+        .icontext{
+            color: $modeW;
+        }
+    }
+}
+.boxSvg{
+    .pathIcon{
+        fill: $modeW ;
+
+    }
+    .pathText{
+       fill: $modeW ;
+    }
+}
+.hr{
+    color: $modeW;
+}
+.section7{
+    .sec7h1{
+     color: $modeW;
+    }
+    .sec7h5-1{
+        color: $modeW;
+
+    }
+}
+.section8{
+    .clientText{
+        p{
+            color: $modeW;
+        }
+        .firstName{
+            
+            color: $modeW;
+        }
+    }
+    .sec8h3{
+        color: $modeW;
+    }
+}
+.section9{
+    .boxCountUp1{
+        border-right: 1px solid #3a3d46;
+        .counth4{
+            color: $modeW;
+        }
+    }
+}
+.section10{
+    .sec10h1{
+        color: $modeW;
+    }
+    .blogText{
+        color: $modeW;
+        
+    }
+    .iconTxt{
+        color: $modeW;
+    }
+    .blogText2{
+        color: $modeW;
+    }
+    .readMore{
+        color: $modeW;
+
+    }
+}
+.comingsoon{
+    .coming{
+        height: auto;
+        background-color: rgba($color: #000000, $alpha: .6);
+    }
+}
+.contact{
+    .contactBox{
+        background-color: rgba($color: #000000, $alpha: .5);
+    }
+}
+.contactSection{
+    .contacth1{
+        color: $modeW;
+    }
+   .d-flex{
+    .contacth6icon{
+        color: $modeW;
+    }
+   }
+   .formTxt{
+    .formh1{
+        color: $modeW;
+    }
+   }
+}
+
+.ourText{
+    background-color: $mode;
+}
+
+.container{
+    .colBox2{
+        background-color: $darkalpha;
+    }
+    .colBox{
+        background-color: $darkalpha;
+          border-left:1px solid rgb(90, 90, 90) ;
+
+    }
+
+
+    
+    .ourh1{
+        color: $modeW;
+    }
+    p{
+        color: $modeW;
+    }
+    .ourBox1{
+        h6{
+            color: $modeW;
+        }
+        .ourTxtA{
+            a{
+                background-color: $mode;
+            }
+        }
+    }
+}
+
+.virtualTitle1{
+    color: $modeW;
+}
+.virtualImg{
+    .virtualh1{
+        color: $modeW;
+        transition: 150ms;
+    }
+    &:hover{
+       .virtualh1{
+        color: $textcolor;
+       }
+    }
+}
+
+.aboutText2{
+    .abouth4{
+        color: $modeW;
+    }
+    .abouth6{
+        color: $modeW;
+
+    }
+}
+
+.aboutLastText{
+    .aboutLasth1{
+        color: $modeW;
+    }
+    .awardsh6best{
+        color: $modeW
+    }
+    .fa-arrow-right-long{
+        color: $textcolor ;
+        
+    }
+}
+.ourText2{
+    .ourh3{
+        color: $modeW;
+    }
+    .signatureText{
+        .signatureh4{
+            color: $modeW;
+        }
+    }
+}
+.teamh1{
+    color: $modeW;
+}
+.teamNameh6{
+    color: $modeW;
+
+}
+.service{
+    .serviceBox{
+        background-color: rgba($color: #000000, $alpha: .5);
+    }
+}
+
+.serviceText{
+    .container{
+        .boxSvg{
+            background-color: $darkalpha;
+        }
+    }
+    .serviceh1{
+        color: $modeW;
+    }
+    .svgh5{
+        color: $modeW;
+    }
+    .svgA{
+        color: $modeW;
+    }
+    .svgColor{
+        fill: $modeW;
+    }
+    .serviceTxth1{
+        color:$modeW;
+    }
+    .serviceTxtp{
+        color:$modeW;
+    }
+    .serviceIconTexth62{
+        color:$modeW;
+    }
+}
+
+.accordion-item{
+    background-color: $mode;
+    color: $modeW;
+    .accordion-button{
+        background-color: $mode;
+    }
+}
+.faqsh3{
+    color: $modeW;
+}
+.faqsImgTxth1{
+    color: $modeW;
+}
+.faqsImgIconSpan{
+    color: $modeW;
+}
+.gridA{
+    color: $modeW;
+}
+.listh5{
+    color: $modeW;
+}
+.gridh5{
+    color: $modeW;
+}
+.gridSpan{
+    color: $modeW;
+}
+.orange {
+    color: $modeW;
+}
+.black2{
+    color: $modeW;
+    
+}
+.listDetailsh3{
+    color: $modeW;
+}
+
+.listText3p{
+    color: $modeW;
+}
+.listTexth3{
+    color: $modeW;
+    
+}
+.tagA2{
+    color: $modeW;
+}
+.commenth6{
+    color: $modeW;
+}
+.tagsh4{
+    color: $modeW;
+}
+.listTagA{
+    color: $modeW;
+    border: 1px solid rgb(70, 68, 68);
+}
+form{
+    .formh2{
+        color: $modeW;
+    }
+}
+.container{
+    .form-check-label{
+        color: $modeW;
+    }
+}
+.projecta:focus{
+    color: $textcolor;
+}
+.projecta{
+    color: $modeW;
+}
+.projecth4{
+    color: $modeW;
+}
+.projectDetailsh4{
+    color: $modeW;
+}
+.projectTexth4{
+    color: $modeW;
+}
+.projectH62{
+    color: $modeW;
+}
+.projecth5{
+    color: $modeW;
+}
+.projectP{
+    color: $modeW;
+}
+.projectTextIcon{
+    i{
+        color: grey;
+    }
+}
+.besth6{
+    color: $modeW;
+}
+.besth62{
+    color: $modeW;
+}
+.detailsh1{
+    color: $modeW;
+}
+.stockSpan{
+    color: $modeW;
+}
+.detailsP2{
+    color: $modeW;
+}
+.stockBtn{
+    color: $modeW;
+}
+.detailsIconTxt{
+    color: $modeW;
+}
+.detailspn2{
+    color: $modeW;
+}
+.tabs{
+    color: $modeW;
+}
+.tabP{
+    color: $modeW;
+}
+.comenth6{
+    color: $modeW;
+}
+.comentP{
+    color: $modeW;
+}
+.table2{
+    color: $modeW;
+.trtable{
+    &:hover{
+        background-color: $textcolor ;
+        th{
+            color: $modeW;
+        }
+        td{
+            color: $modeW;
+        }
+    }
+}
+}
+.carth4{
+    color: $modeW;
+}
+.shoph6{
+    color: $modeW;
+}
+.shoph5{
+    color: $modeW;
+}
+.carth5{
+    color: $modeW;
+}
+.cartBox2a{
+    color: rgb(51, 51, 51);
+}
+.cartBox{
+    background-color: $darkalpha;
+    &:hover{
+        box-shadow: rgba(20, 20, 20, 0.9) 0px 0px 10px 10px;
+        cursor: pointer;
+        img{
+            transform: scale(1.2);
+      }
+    }
+}
+.cartDetailsh6{
+    color: $modeW;
+}
+.cartDetailsTitle{
+    color: $modeW;
+}
+.cartDetailsP{
+    color: $modeW;
+}
+.detailsCart{
+    background-image: url("https://demo2.themelexus.com/kitchor/wp-content/uploads/2022/06/logo-2.svg");
+    background-color: $mode;
+    box-shadow: rgb(0, 0, 0,.3) 0px 7px 10px 0px;   
+}
+.cartTotal{
+    color: $modeW;
+}
+.emptyh5{
+    color: $modeW;
+}
+.sortSpan{
+    color: $modeW;
+}
+.checkout2{
+    .container{
+        form{
+            .form-control{
+                background-color: $mode;
+                color: $textcolor;
+                &::placeholder{
+                    color: rgb(216, 216, 216);
+                }
+            }
+        }
+    }
+    .checkoutBox{
+        h5{
+            color: $modeW;
+        }
+    }
+    .checkSpan{
+        color: $modeW;
+    }
+    .checkOutDetails{
+           .checkOutDetailsh5{
+            color: $modeW;
+        }
+        .itemtext{
+            color: $modeW;
+        }
+       .itemtext2{
+        color: $textcolor;
+       }
+    }
+}
+.kitchorImg{
+    width: 200px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-image: url("https://demo2.themelexus.com/kitchor/wp-content/uploads/2022/06/logo-2.svg") ;
+}
+.blogFormlbl{
+    color: $modeW;
+}
+.dashboardH1{
+    color: $modeW;
+}
+.tableTitle{
+    color: $modeW !important;
+}
+.logintxt{
+    color: $modeW;
+}
+.fa-heart{
+    color: $modeW;
+}
+.descp{
+    color: $modeW;
+}
+}
+
