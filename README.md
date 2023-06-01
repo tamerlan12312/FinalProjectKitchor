@@ -7,5 +7,5 @@
 ## **Sass**
 ## **use Context**
 
-## Contributer: 
+## Contributers: 
 ### Farajullayev Tamerlan
